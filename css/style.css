@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+.header {
+	padding: 30px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #71ac85;
+}
+
+.footer {
+	padding: 30px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #71ac85;
+}
+
+[class$="__container"] {
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+.overtitle {
+	padding-left: 30px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+}
+
+.title {
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 116.6%;
+	letter-spacing: 0px;
+}
+
+/*promise-----------------------------------*/
+.promise {
+	padding: 110px 0 120px 0;
+	/*фон для наглядности*/
+	background: #6ef799;
+}
+
+.promise__overtitle {
+	margin-bottom: 30px;
+	color: #5d62b5;
+	background: url(../img/overline_01.svg) top left no-repeat;
+}
+
+.promise__title {
+	margin-bottom: 65px;
+}
+
+.promise__items {
+	display: flex;
+}
+
+.promise__item {
+	flex: 1 1 33.333%;
+}
+
+.promise__item:not(:last-child) {
+	margin-right: 24px;
+}
+
+.item-promise {
+	display: flex;
+	align-items: flex-start;
+}
+
+.item-promise__img {
+	margin-right: 23px;
+}
+
+.item-promise__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.item-promise__title {
+	margin-bottom: 20px;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
+	color: #f2726f;
+}
+
+/*stats-----------------------------------*/
+
+.stats {
+	padding: 110px 0 110px 0;
+	font-size: 0;
+	color: #fff;
+	background: url(../img/bg_stats.png) 95% top no-repeat #29c3be;
+}
+
+.stats__titles {
+	display: inline-block;
+	margin-right: 105px;
+	margin-bottom: 80px;
+	max-width: 415px;
+}
+
+.stats__overtitle {
+	margin-bottom: 30px;
+	background: url(../img/overline_02.svg) center left no-repeat;
+}
+
+.stats__img {
+	margin-top: -180px;
+	vertical-align: top;
+	border-radius: 40px;
+}
+
+.stats__list {
+	display: flex;
+	margin-bottom: 135px;
+}
+
+.stats__item {
+	flex: 1 1 25%;
+	display: flex;
+}
+
+.item-stats__img {
+	margin-right: 10px;
+}
+.item-stats__text {
+	display: inline-block;
+}
+
+.item-stats__value {
+	display: inline-block;
+	margin-bottom: 5px;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 116%;
+	letter-spacing: 0px;
+}
+
+.item-stats__title {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	text-align: left;
+	word-wrap: break-word;
+	color: #5d62b5;
+}
